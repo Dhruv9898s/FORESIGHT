@@ -1,0 +1,101 @@
+sku_id,product_name,category,latest_inventory,forecast_8_week,forecast_method,forecast_confidence,coverage_ratio,stockout_risk,overstock_risk,recommended_action,unit_cost,units_at_risk,rupee_value_at_stake
+SKU001,Clear Plastic Storage Bin,Storage & Organizers,136781,3784.1471309391736,primary_ml,Established,36.14579329690408,Low,Low,Healthy,729,0.0,0.0
+SKU002,Stackable Plastic Storage Bin,Storage & Organizers,174646,3756.4695737526063,primary_ml,Established,46.49205765442514,Low,High,Markdown / clear,546,170889.5304262474,93305683.61273108
+SKU003,Under-Bed Storage Box,Storage & Organizers,177362,3797.8288263139875,primary_ml,Established,46.70089361877325,Low,High,Markdown / clear,743,173564.17117368602,128958179.18204871
+SKU004,Foldable Fabric Storage Cube,Storage & Organizers,41914,4153.0,category_fallback,Medium,10.092463279556947,High,Low,Reorder now,390,41914.0,16346460.0
+SKU005,Large Plastic Storage Box,Storage & Organizers,37563,4153.488372093023,category_fallback,Medium,9.04372340425532,High,Low,Reorder now,232,37563.0,8714616.0
+SKU006,File Storage Box,Storage & Organizers,35055,4061.8,category_fallback,Medium,8.63041016298193,High,Low,Reorder now,362,35055.0,12689910.0
+SKU007,3-Tier Shoe Rack,Storage & Organizers,148928,3761.9458722641402,primary_ml,Established,39.58802307550671,Low,Low,Healthy,133,0.0,0.0
+SKU008,5-Tier Shoe Rack,Storage & Organizers,19079,4179.636363636364,category_fallback,Medium,4.564751174525839,High,Low,Reorder now,774,19079.0,14767146.0
+SKU009,Hanging Shoe Organizer,Storage & Organizers,108589,3883.410348713465,primary_ml,Established,27.962278062109622,Low,Low,Healthy,757,0.0,0.0
+SKU010,Over-the-Door Organizer,Storage & Organizers,138756,3749.5245861229855,primary_ml,Established,37.00629154787699,Low,Low,Healthy,148,0.0,0.0
+SKU011,Velvet Clothes Hangers,Storage & Organizers,74451,3850.7907775020844,primary_ml,Established,19.333950947159632,High,Low,Reorder now,699,74451.0,52041249.0
+SKU012,Multi-Tier Clothes Hanger,Storage & Organizers,122046,3762.448458865045,primary_ml,Established,32.437919438454074,Low,Low,Healthy,341,0.0,0.0
+SKU013,Spice Rack,Storage & Organizers,105026,3798.4545812963524,primary_ml,Established,27.64966587125975,Low,Low,Healthy,713,0.0,0.0
+SKU014,Drawer Organizer,Storage & Organizers,106861,3783.381552246737,primary_ml,Established,28.24483825495773,Low,Low,Healthy,327,0.0,0.0
+SKU015,Clear Pantry Bin,Storage & Organizers,150744,3752.7529076423098,primary_ml,Established,40.1689116523011,Low,High,Markdown / clear,197,146991.2470923577,28957275.677194465
+SKU016,Food Storage Canister,Storage & Organizers,3379,3938.5693359375,category_fallback,Low,0.857925736934042,High,Low,Reorder now,619,3379.0,2091601.0
+SKU017,Under-Sink Organizer,Storage & Organizers,183168,3792.433765922913,primary_ml,Established,48.298272641137316,Low,High,Markdown / clear,655,179375.5662340771,117490995.8833205
+SKU018,Kitchen Storage Rack,Storage & Organizers,173659,3767.750746319159,primary_ml,Established,46.09089392913086,Low,High,Markdown / clear,666,169891.24925368084,113147572.00295144
+SKU019,Laundry Hamper,Storage & Organizers,221423,3781.7401161462494,primary_ml,Established,58.55055958357055,Low,High,Markdown / clear,202,217641.25988385375,43963534.49653846
+SKU020,Fabric Storage Basket,Storage & Organizers,151921,3831.7168180481976,primary_ml,Established,39.64828488483802,Low,Low,Healthy,393,0.0,0.0
+SKU021,General Storage Basket,Storage & Organizers,88993,3751.671247609543,primary_ml,Established,23.720895069551677,Low,Low,Healthy,384,0.0,0.0
+SKU022,Hanging Organizer,Storage & Organizers,22506,4199.407407407408,category_fallback,Medium,5.359327594722359,High,Low,Reorder now,330,22506.0,7426980.0
+SKU023,Bathroom Shower Caddy,Storage & Organizers,204651,3803.9692866372147,primary_ml,Established,53.799330272962216,Low,High,Markdown / clear,495,200847.0307133628,99419280.20311458
+SKU024,Bathroom Storage Rack,Storage & Organizers,107041,3912.610681181953,primary_ml,Established,27.357948112451655,Low,Low,Healthy,297,0.0,0.0
+SKU025,Desktop Organizer,Storage & Organizers,202899,3769.286428899475,primary_ml,Established,53.82955204580745,Low,High,Markdown / clear,517,199129.71357110052,102950061.91625898
+SKU026,Magazine Holder,Storage & Organizers,205771,3816.5711232516705,primary_ml,Established,53.91514879583475,Low,High,Markdown / clear,671,201954.42887674834,135511421.77629814
+SKU027,File Organizer,Storage & Organizers,199822,3874.452119238129,primary_ml,Established,51.574259753477854,Low,High,Markdown / clear,369,195947.54788076188,72304645.16800113
+SKU028,Drawer Divider,Storage & Organizers,18549,4216.0,category_fallback,Medium,4.399667931688804,High,Low,Reorder now,526,18549.0,9756774.0
+SKU029,Document Storage Box,Storage & Organizers,208322,3784.087483283014,primary_ml,Established,55.05210989975928,Low,High,Markdown / clear,354,204537.91251671698,72406421.03091781
+SKU030,Multi-Purpose Storage Basket,Storage & Organizers,153360,3784.8245828062404,primary_ml,Established,40.51971145418104,Low,High,Markdown / clear,196,149575.17541719376,29316734.381769978
+SKU031,Mixer Grinder,Appliances,84644,3753.7686352740616,primary_ml,Established,22.549072205623606,Low,Low,Healthy,33623,0.0,0.0
+SKU032,Induction Cooktop,Appliances,118469,3732.0420824007015,primary_ml,Established,31.74374709188508,Low,Low,Healthy,10225,0.0,0.0
+SKU033,Electric Rice Cooker,Appliances,52767,3720.801690422111,primary_ml,Established,14.181621164016883,High,Low,Reorder now,9421,52767.0,497117907.0
+SKU034,Wet Grinder,Appliances,99371,3730.876990471214,primary_ml,Established,26.63475645372305,Low,Low,Healthy,10230,0.0,0.0
+SKU035,Electric Kettle,Appliances,86455,3711.7642351485315,primary_ml,Established,23.292158262993873,Low,Low,Healthy,8716,0.0,0.0
+SKU036,Gas Stove ,Appliances,82060,3692.580788759263,primary_ml,Established,22.222939644219082,Low,Low,Healthy,11797,0.0,0.0
+SKU037,Kitchen Chimney,Appliances,43431,3711.161520934152,primary_ml,Established,11.702805106975726,High,Low,Reorder now,24544,43431.0,1065970464.0
+SKU038,Microwave Oven,Appliances,42494,3703.549796118966,primary_ml,Established,11.473856796668546,High,Low,Reorder now,26975,42494.0,1146275650.0
+SKU039,Sandwich Maker,Appliances,78846,3729.919250779836,primary_ml,Established,21.13879542660748,Low,Low,Healthy,31521,0.0,0.0
+SKU040,Electric Cooker,Appliances,34515,3938.1666666666665,category_fallback,Medium,8.764230394853781,High,Low,Reorder now,33360,34515.0,1151420400.0
+SKU041,Ceiling Fan,Appliances,139789,3672.768684668908,primary_ml,Established,38.06093222900632,Low,Low,Healthy,15240,0.0,0.0
+SKU042,Pedestal Fan,Appliances,115079,3713.099238845272,primary_ml,Established,30.99270786950153,Low,Low,Healthy,28182,0.0,0.0
+SKU043,Air Cooler,Appliances,44894,3742.41772596966,primary_ml,Established,11.995988499217567,High,Low,Reorder now,33676,44894.0,1511850344.0
+SKU044,Air Conditioner,Appliances,116748,3683.9682189191135,primary_ml,Established,31.690827135923065,Low,Low,Healthy,10770,0.0,0.0
+SKU045,Water Heater Geyser,Appliances,150646,3701.8978234363444,primary_ml,Established,40.69426202048994,Low,High,Markdown / clear,16456,146944.10217656367,2418112145.417532
+SKU046,Semi-Automatic Washing Machine,Appliances,178280,3703.9427139013255,primary_ml,Established,48.132493877644094,Low,High,Markdown / clear,22751,174576.0572860987,3971779879.3160315
+SKU047,Fully Automatic Washing Machine,Appliances,179610,3677.589047987178,primary_ml,Established,48.839062129115355,Low,High,Markdown / clear,20189,175932.4109520128,3551899444.7101865
+SKU048,Direct Cool Refrigerator,Appliances,92819,3736.2599036187285,primary_ml,Established,24.842757836546866,Low,Low,Healthy,27459,0.0,0.0
+SKU049,Water Purifier,Appliances,28880,3874.8,category_fallback,Medium,7.453287911634148,High,Low,Reorder now,30365,28880.0,876941200.0
+SKU050,Vacuum Cleaner,Appliances,70397,3732.8297604296877,primary_ml,Established,18.85888307745826,High,Low,Reorder now,14399,70397.0,1013646403.0
+SKU051,Iron,Appliances,20495,3755.310344827586,category_fallback,Medium,5.457604862998605,High,Low,Reorder now,21773,20495.0,446237635.0
+SKU052,Inverter,Appliances,128284,3639.968111272237,primary_ml,Established,35.24316589552823,Low,Low,Healthy,29307,0.0,0.0
+SKU053,LED Television,Appliances,187919,3730.9152719899994,primary_ml,Established,50.36806957553007,Low,High,Markdown / clear,17179,184188.08472801,3164167107.542484
+SKU054,Hair Dryer,Appliances,87932,3713.9865425233743,primary_ml,Established,23.675907005375638,Low,Low,Healthy,17062,0.0,0.0
+SKU055,Grooming Trimmer,Appliances,20842,3930.4,category_fallback,Medium,5.302768166089965,High,Low,Reorder now,22018,20842.0,458899156.0
+SKU056,Sound System,Appliances,182959,3687.828699835688,primary_ml,Established,49.61157767662901,Low,High,Markdown / clear,28959,179271.1713001643,5191513849.681458
+SKU057,Sofa Set,Furniture,116989,3088.4274956420927,primary_ml,Established,37.87979486812517,Low,Low,Healthy,34049,0.0,0.0
+SKU058,Center Table,Furniture,128833,2907.050680870868,primary_ml,Established,44.317424820885954,Low,High,Markdown / clear,11942,125925.94931912913,1503807686.76904
+SKU059,TV Unit,Furniture,98081,3070.5035472828094,primary_ml,Established,31.942969122050073,Low,Low,Healthy,26387,0.0,0.0
+SKU060,Diwan,Furniture,164022,3012.7541319717097,primary_ml,Established,54.44254420212349,Low,High,Markdown / clear,6914,161009.2458680283,1113217925.9315476
+SKU061,Shoe Cabinet,Furniture,126477,2908.6065653678434,primary_ml,Established,43.48370848980904,Low,High,Markdown / clear,11014,123568.39343463216,1360982285.2890387
+SKU062,Double Bed,Furniture,2384,3134.3116451016635,category_fallback,Low,0.7606135796118875,High,Low,Reorder now,26571,2384.0,63345264.0
+SKU063,Wardrobe,Furniture,116231,2924.152549415367,primary_ml,Established,39.748610250596656,Low,Low,Healthy,32066,0.0,0.0
+SKU064,Dressing Table,Furniture,78003,3043.155380941825,primary_ml,Established,25.632276448486465,Low,Low,Healthy,29464,0.0,0.0
+SKU065,Bedside Table,Furniture,159018,3122.287709109398,primary_ml,Established,50.92996380060002,Low,High,Markdown / clear,12558,155895.7122908906,1957738354.9490042
+SKU066,Diwan Cot,Furniture,154840,3108.9355629044,primary_ml,Established,49.80482768685848,Low,High,Markdown / clear,12705,151731.0644370956,1927743173.6732996
+SKU067,Dining Table Set,Furniture,23521,3247.589743589743,category_fallback,Medium,7.242602008590198,High,Low,Reorder now,13012,23521.0,306055252.0
+SKU068,Crockery Unit,Furniture,27794,3267.304347826087,category_fallback,Medium,8.506706765316443,High,Low,Reorder now,18011,27794.0,500597734.0
+SKU069,Kitchen Trolley Unit,Furniture,53977,2980.4753479789124,primary_ml,Established,18.110198440863567,High,Low,Reorder now,37971,53977.0,2049560667.0
+SKU070,Bar Stool,Furniture,106533,3140.6870376723195,primary_ml,Established,33.92028518669456,Low,Low,Healthy,19202,0.0,0.0
+SKU071,Study Table,Furniture,6854,3400.97831176833,category_fallback,Low,2.0153024723160553,High,Low,Reorder now,11623,6854.0,79664042.0
+SKU072,Office Chair,Furniture,141511,3156.832612603981,primary_ml,Established,44.8268937146058,Low,High,Markdown / clear,25972,138354.167387396,3593334435.385449
+SKU073,Bookshelf,Furniture,127162,3055.7640511860254,primary_ml,Established,41.61381502954882,Low,High,Markdown / clear,9561,124106.23594881398,1186579721.9066105
+SKU074,Computer Table,Furniture,54018,3073.633272081985,primary_ml,Established,17.574640569728693,High,Low,Reorder now,12311,54018.0,665015598.0
+SKU075,Plastic Chair,Furniture,63398,2902.754532637577,primary_ml,Established,21.840634227653293,Low,Low,Healthy,23822,0.0,0.0
+SKU076,Wall Hanging,Home Decor,28400,2729.2382328260223,primary_ml,Established,10.405834001010927,High,Low,Reorder now,2454,28400.0,69693600.0
+SKU077,Brass Diya,Home Decor,80953,2751.470248163167,primary_ml,Established,29.42172464123237,Low,Low,Healthy,2065,0.0,0.0
+SKU078,Handloom Cushion Cover,Home Decor,16906,2748.8860733296133,primary_ml,Established,6.1501275604057515,High,Low,Reorder now,383,16906.0,6474998.0
+SKU079,Jute Rug,Home Decor,793,2587.5979260745944,category_fallback,Low,0.3064618316505559,High,Low,Reorder now,1036,793.0,821548.0
+SKU080,Terracotta Planter,Home Decor,64123,2761.2022395947824,primary_ml,Established,23.222855276768975,Low,Low,Healthy,1848,0.0,0.0
+SKU081,Wooden Wall Shelf,Home Decor,79618,2801.5827459003913,primary_ml,Established,28.418935730706693,Low,Low,Healthy,1186,0.0,0.0
+SKU082,Glass Flower Vase,Home Decor,78032,2776.8384458102146,primary_ml,Established,28.10102262799525,Low,Low,Healthy,2682,0.0,0.0
+SKU083,Metal Wall Art,Home Decor,14829,2995.2340425531916,category_fallback,Medium,4.9508652042961865,High,Low,Reorder now,2591,14829.0,38421939.0
+SKU084,Cotton Door Curtain,Home Decor,2870,2925.931259407928,category_fallback,Low,0.980884287958547,High,Low,Reorder now,204,2870.0,585480.0
+SKU085,Pichwai Painting,Home Decor,45618,2761.127864612251,primary_ml,Established,16.52150941094001,High,Low,Reorder now,2588,45618.0,118059384.0
+SKU086,Scented Candle,Home Decor,70263,2772.306899734651,primary_ml,Established,25.344596590920425,Low,Low,Healthy,328,0.0,0.0
+SKU087,Beaded Table Runner,Home Decor,63717,2851.7470114290636,primary_ml,Established,22.343146059113504,Low,Low,Healthy,1076,0.0,0.0
+SKU088,Bamboo Wind Chime,Home Decor,3012,3101.331259407928,category_fallback,Low,0.9711958343253593,High,Low,Reorder now,2299,3012.0,6924588.0
+SKU089,Marble Coaster Set,Home Decor,74054,2755.776334706116,primary_ml,Established,26.872282437209236,Low,Low,Healthy,1247,0.0,0.0
+SKU090,Ethnic Floor Cushion,Home Decor,22980,2758.621540203717,primary_ml,Established,8.330247431586063,High,Low,Reorder now,159,22980.0,3653820.0
+SKU091,Pressure Cooker,Cookware & Tableware,13296,2762.3783783783783,category_fallback,Medium,4.813243581715717,High,Low,Reorder now,1198,13296.0,15928608.0
+SKU092,Tawa,Cookware & Tableware,23632,2631.342613020059,primary_ml,Established,8.980966554133728,High,Low,Reorder now,2703,23632.0,63877296.0
+SKU093,Kadai,Cookware & Tableware,84970,2613.7144880183528,primary_ml,Established,32.50928913219666,Low,Low,Healthy,2643,0.0,0.0
+SKU094,Top,Cookware & Tableware,88453,2617.8317201634513,primary_ml,Established,33.78865009492558,Low,Low,Healthy,805,0.0,0.0
+SKU095,Fry Pan,Cookware & Tableware,90051,2610.98427797901,primary_ml,Established,34.489292317647546,Low,Low,Healthy,859,0.0,0.0
+SKU096,Thali,Cookware & Tableware,4672,2814.9649637893913,category_fallback,Low,1.6597009412546093,High,Low,Reorder now,2034,4672.0,9502848.0
+SKU097,Katori,Cookware & Tableware,53883,2618.505497084844,primary_ml,Established,20.577768524827388,Low,Low,Healthy,669,0.0,0.0
+SKU098,Tumbler,Cookware & Tableware,71836,2612.4485744613003,primary_ml,Established,27.497574766543657,Low,Low,Healthy,2800,0.0,0.0
+SKU099,Hot Case,Cookware & Tableware,14437,2729.1428571428573,category_fallback,Medium,5.289939279731993,High,Low,Reorder now,1692,14437.0,24427404.0
+SKU100,Serving Spoon,Cookware & Tableware,2728,2681.0308978553253,category_fallback,Low,1.0175190454471252,High,Low,Reorder now,601,2728.0,1639528.0
