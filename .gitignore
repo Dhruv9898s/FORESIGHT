@@ -49,4 +49,5 @@ data/processed/*
 # Temporary files
 # --------------------------------------------------
 
-*.log
+*.log.idea/
+*.pages

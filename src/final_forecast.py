@@ -2,18 +2,23 @@ import pandas as pd
 
 from sklearn.ensemble import HistGradientBoostingRegressor
 
-
+# ============================================================
 # Load feature-engineered data
+# ============================================================
 df = pd.read_csv(
     "data/processed/feature_engineered.csv"
 )
 
+# ============================================================
 # Convert date
+# ============================================================
 df["week_start"] = pd.to_datetime(
     df["week_start"]
 )
 
+# ============================================================
 # Sort data
+# ============================================================
 df = df.sort_values(
     ["sku_id", "week_start"]
 ).reset_index(drop=True)
@@ -22,7 +27,9 @@ print("Rows:", len(df))
 print("SKUs:", df["sku_id"].nunique())
 print("SKUs:", df["sku_id"].nunique())
 
+# ============================================================
 # Create 52-week seasonal lag
+# ============================================================
 df["lag_52"] = (
     df.groupby("sku_id")["demand"]
       .shift(52)
@@ -30,7 +37,9 @@ df["lag_52"] = (
 
 print("lag_52 available:", df["lag_52"].notna().sum())
 
+# ============================================================
 # Keep established SKUs
+# ============================================================
 established_skus = (
     df.loc[
         df["lag_52"].notna(),
@@ -80,8 +89,9 @@ model = HistGradientBoostingRegressor(
 
 print("Model:", model)
 
-
+# ============================================================
 # Use all available historical rows with complete features
+# ============================================================
 train_model = df.dropna(
     subset=feature_cols
 ).copy()
@@ -102,8 +112,9 @@ model.fit(
 
 print("Final model trained.")
 
-
+# ============================================================
 # Forecast period
+# ============================================================
 last_week = df["week_start"].max()
 
 forecast_start = last_week + pd.Timedelta(weeks=1)
@@ -117,8 +128,9 @@ forecast_weeks = pd.date_range(
 print("\nForecast period:")
 print(forecast_weeks)
 
-
+# ============================================================
 # Create future forecast rows
+# ============================================================
 future_rows = pd.MultiIndex.from_product(
     [
         established_skus,
@@ -131,27 +143,32 @@ print("\nFuture forecast rows:", len(future_rows))
 print("Future SKUs:", future_rows["sku_id"].nunique())
 print("Future weeks:", future_rows["week_start"].nunique())
 
+# ============================================================
 # Add calendar features
+# ============================================================
 future_rows["month"] = future_rows["week_start"].dt.month
 future_rows["week"] = future_rows["week_start"].dt.isocalendar().week.astype(int)
 future_rows["quarter"] = future_rows["week_start"].dt.quarter
 
 print("Calendar features created.")
 
-
+# ============================================================
 # Holiday feature
+# ============================================================
 future_rows["is_holiday"] = 0
 
 print("Holiday feature created.")
 
-
+# ============================================================
 # Promotion feature
+# ============================================================
 future_rows["promotion_days"] = 0
 
 print("Promotion feature created.")
 
-
+# ============================================================
 # Create future lag_52
+# ============================================================
 historical_lag = df[
     ["sku_id", "week_start", "demand"]
 ].copy()
@@ -185,7 +202,9 @@ print(
     future_rows["lag_52"].isna().sum()
 )
 
+# ============================================================
 # Historical demand lookup
+# ============================================================
 history = df[
     ["sku_id", "week_start", "demand"]
 ].copy()
@@ -196,15 +215,18 @@ history = history.set_index(
 
 print("Historical demand lookup created.")
 
-
+# ============================================================
 # Recursive 8-week forecast
+# ============================================================
 forecast_results = []
 
 for week in forecast_weeks:
 
     print(f"Forecasting: {week.date()}")
 
+# ============================================================
 # Build lag features
+# ============================================================
     lag_values = {}
 
     for lag in [1, 2, 4, 8]:
@@ -240,8 +262,10 @@ for week in forecast_weeks:
             in lag_values.items()
         }
     )
-    
+
+# ============================================================    
 # Build feature table for this week
+# ============================================================
     week_features = pd.DataFrame({
         "sku_id": established_skus,
         "week_start": week,
@@ -256,15 +280,20 @@ for week in forecast_weeks:
         "Week feature columns:",
         week_features.columns.tolist()
     )
+
+# ============================================================    
 # Add remaining model features
+# ============================================================
     week_features["month"] = week.month
     week_features["week"] = week.isocalendar().week
     week_features["quarter"] = week.quarter
     week_features["is_holiday"] = 0
     week_features["promotion_days"] = 0
 
+# ============================================================
 # Seasonal indicators
 # Season encoding
+# ============================================================
     season = {
         1: "Winter",
         2: "Winter",
@@ -281,9 +310,7 @@ for week in forecast_weeks:
     }[week.month]
 
     week_features["season_Autumn"] = int(
-        season == "Autumn"
-    )
-
+        season == "Autumn")
     week_features["season_Rain"] = int(
         season == "Rain"
     )
@@ -295,7 +322,10 @@ for week in forecast_weeks:
     week_features["season_Winter"] = int(
         season == "Winter"
     )
+
+# ============================================================    
 # Rolling features
+# ============================================================
     rolling_values = {
         "rolling_mean_4": [],
         "rolling_median_4": [],
@@ -353,89 +383,57 @@ for week in forecast_weeks:
 
     print("Rolling features prepared.")
 
+# ============================================================
 # Add 52-week seasonal lag
-    week_features["lag_52"] = (
-        future_rows.loc[
-            future_rows["week_start"] == week,
-            "lag_52"
-        ].values
-    )
+# ============================================================
+week_features["lag_52"] = (future_rows.loc[future_rows["week_start"] == week,"lag_52"].values)
 
+# ============================================================
 # Verify all model features exist
-    missing_features = [
-        col
-        for col in feature_cols
-        if col not in week_features.columns
-    ]
+# ============================================================
+missing_features = [col
+    for col in feature_cols
+    if col not in week_features.columns]
 
-    print(
-        "Missing model features:",
-        missing_features
-    )
+print("Missing model features:", missing_features)
 
-    X_future = week_features[
-        feature_cols
-    ]
+X_future = week_features[feature_cols]
 
-    print(
-        "X_future shape:",
-        X_future.shape
-    )
-        # Generate forecast
-    prediction = model.predict(
-        X_future
-    )
+print("X_future shape:", X_future.shape)
 
-    print(
-        "Prediction rows:",
-        len(prediction)
-    )
+# ============================================================    
+# Generate forecast
+# ============================================================
+prediction = model.predict(X_future) 
 
-    print(
-        "First 5 predictions:",
-        prediction[:5]
-    )
-        # Store predictions in history
-    for sku, value in zip(
-        established_skus,
-        prediction
-    ):
-        history.loc[
-            (sku, week)
-        ] = value
+print("Prediction rows:", len(prediction))
+print("First 5 predictions:", prediction[:5])
 
-    print(
-        "Predictions added to history:",
-        len(prediction)
-    )
+# ============================================================
+# Store predictions in history
+# ============================================================
+for sku, value in zip(established_skus, prediction):history.loc[(sku, week)] = value
+
+print("Predictions added to history:", len(prediction))
+
+# ============================================================    
 # Store forecast results
-    week_forecast = pd.DataFrame({
-        "sku_id": established_skus,
-        "week_start": week,
-        "forecast": prediction
-    })
+# ============================================================
+week_forecast = pd.DataFrame({"sku_id": established_skus, "week_start": week, "forecast": prediction})
 
-    forecast_results.append(
-        week_forecast
-    )
-print(
-        "Forecast results stored:",
-        len(week_forecast)
-    )
+forecast_results.append(week_forecast)
 
+print("Forecast results stored:", len(week_forecast))
+
+# ============================================================
 # Combine all forecast weeks
-forecast_df = pd.concat(
-    forecast_results,
-    ignore_index=True
-)
+# ============================================================
+forecast_df = pd.concat(forecast_results, ignore_index=True)
 
 print("Total forecast rows:", len(forecast_df))
 print("Forecast SKUs:", forecast_df["sku_id"].nunique())
 print("Forecast weeks:", forecast_df["week_start"].nunique())   
 
-forecast_df.to_csv(
-    "data/processed/final_forecast.csv",
-    index=False
-)
+forecast_df.to_csv("data/processed/final_forecast.csv",index=False)
 
 print("Final forecast saved.")
