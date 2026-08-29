@@ -1,0 +1,6 @@
+store_id,store_name,city,state,store_size,store_multiplier
+ST001,FORESIGHT Central,Bhubaneswar,Odisha,Large,1.2
+ST002,FORESIGHT Metro,Kolkata,West Bengal,Large,1.3
+ST003,FORESIGHT Urban,Ranchi,Jharkhand,Medium,1.0
+ST004,FORESIGHT City,Raipur,Chhattisgarh,Medium,0.95
+ST005,FORESIGHT Home,Cuttack,Odisha,Small,0.8

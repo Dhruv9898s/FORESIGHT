@@ -1,0 +1,101 @@
+sku_id,product_name,category,unit_cost,list_price,launch_date
+SKU001,Clear Plastic Storage Bin,Storage & Organizers,729,907,2023-01-02
+SKU002,Stackable Plastic Storage Bin,Storage & Organizers,546,729,2022-03-03
+SKU003,Under-Bed Storage Box,Storage & Organizers,743,1177,2022-02-01
+SKU004,Foldable Fabric Storage Cube,Storage & Organizers,390,600,2025-02-04
+SKU005,Large Plastic Storage Box,Storage & Organizers,232,315,2025-03-11
+SKU006,File Storage Box,Storage & Organizers,362,454,2025-04-03
+SKU007,3-Tier Shoe Rack,Storage & Organizers,133,172,2022-09-14
+SKU008,5-Tier Shoe Rack,Storage & Organizers,774,1058,2025-08-05
+SKU009,Hanging Shoe Organizer,Storage & Organizers,757,933,2023-08-10
+SKU010,Over-the-Door Organizer,Storage & Organizers,148,202,2022-12-07
+SKU011,Velvet Clothes Hangers,Storage & Organizers,699,843,2024-05-17
+SKU012,Multi-Tier Clothes Hanger,Storage & Organizers,341,522,2023-04-27
+SKU013,Spice Rack,Storage & Organizers,713,914,2023-09-08
+SKU014,Drawer Organizer,Storage & Organizers,327,508,2023-08-27
+SKU015,Clear Pantry Bin,Storage & Organizers,197,292,2022-09-13
+SKU016,Food Storage Canister,Storage & Organizers,619,901,2025-12-09
+SKU017,Under-Sink Organizer,Storage & Organizers,655,1015,2021-12-19
+SKU018,Kitchen Storage Rack,Storage & Organizers,666,981,2022-03-07
+SKU019,Laundry Hamper,Storage & Organizers,202,280,2021-02-06
+SKU020,Fabric Storage Basket,Storage & Organizers,393,596,2022-08-26
+SKU021,General Storage Basket,Storage & Organizers,384,507,2024-01-16
+SKU022,Hanging Organizer,Storage & Organizers,330,418,2025-07-05
+SKU023,Bathroom Shower Caddy,Storage & Organizers,495,639,2021-07-09
+SKU024,Bathroom Storage Rack,Storage & Organizers,297,455,2023-08-23
+SKU025,Desktop Organizer,Storage & Organizers,517,646,2021-07-15
+SKU026,Magazine Holder,Storage & Organizers,671,908,2021-06-21
+SKU027,File Organizer,Storage & Organizers,369,508,2021-08-06
+SKU028,Drawer Divider,Storage & Organizers,526,765,2025-08-06
+SKU029,Document Storage Box,Storage & Organizers,354,492,2021-06-02
+SKU030,Multi-Purpose Storage Basket,Storage & Organizers,196,298,2022-08-13
+SKU031,Mixer Grinder,Appliances,33623,43974,2023-10-02
+SKU032,Induction Cooktop,Appliances,10225,12631,2022-11-19
+SKU033,Electric Rice Cooker,Appliances,9421,13683,2024-08-14
+SKU034,Wet Grinder,Appliances,10230,13373,2023-05-19
+SKU035,Electric Kettle,Appliances,8716,12889,2023-09-27
+SKU036,Gas Stove ,Appliances,11797,16170,2023-11-05
+SKU037,Kitchen Chimney,Appliances,24544,31719,2024-11-09
+SKU038,Microwave Oven,Appliances,26975,40633,2024-11-22
+SKU039,Sandwich Maker,Appliances,31521,47063,2023-12-07
+SKU040,Electric Cooker,Appliances,33360,50817,2025-02-05
+SKU041,Ceiling Fan,Appliances,15240,21475,2022-05-01
+SKU042,Pedestal Fan,Appliances,28182,34239,2022-12-25
+SKU043,Air Cooler,Appliances,33676,50053,2024-10-29
+SKU044,Air Conditioner,Appliances,10770,13197,2022-12-06
+SKU045,Water Heater Geyser,Appliances,16456,20050,2022-01-17
+SKU046,Semi-Automatic Washing Machine,Appliances,22751,35528,2021-05-03
+SKU047,Fully Automatic Washing Machine,Appliances,20189,27604,2021-04-11
+SKU048,Direct Cool Refrigerator,Appliances,27459,36716,2023-07-24
+SKU049,Water Purifier,Appliances,30365,42897,2025-04-01
+SKU050,Vacuum Cleaner,Appliances,14399,18790,2024-02-24
+SKU051,Iron,Appliances,21773,29021,2025-06-22
+SKU052,Inverter,Appliances,29307,36019,2022-08-18
+SKU053,LED Television,Appliances,17179,24783,2021-02-04
+SKU054,Hair Dryer,Appliances,17062,20753,2023-09-04
+SKU055,Grooming Trimmer,Appliances,22018,32039,2025-06-13
+SKU056,Sound System,Appliances,28959,43522,2021-03-16
+SKU057,Sofa Set,Furniture,34049,45747,2022-05-30
+SKU058,Center Table,Furniture,11942,18842,2022-02-03
+SKU059,TV Unit,Furniture,26387,40526,2023-01-02
+SKU060,Diwan,Furniture,6914,8326,2021-01-02
+SKU061,Shoe Cabinet,Furniture,11014,16282,2022-02-25
+SKU062,Double Bed,Furniture,26571,33789,2025-12-08
+SKU063,Wardrobe,Furniture,32066,40946,2022-06-08
+SKU064,Dressing Table,Furniture,29464,37826,2023-08-10
+SKU065,Bedside Table,Furniture,12558,19744,2021-02-27
+SKU066,Diwan Cot,Furniture,12705,20080,2021-04-13
+SKU067,Dining Table Set,Furniture,13012,16369,2025-04-13
+SKU068,Crockery Unit,Furniture,18011,23003,2025-02-23
+SKU069,Kitchen Trolley Unit,Furniture,37971,59012,2024-05-08
+SKU070,Bar Stool,Furniture,19202,25030,2022-09-17
+SKU071,Study Table,Furniture,11623,15175,2025-10-14
+SKU072,Office Chair,Furniture,25972,32820,2021-08-30
+SKU073,Bookshelf,Furniture,9561,11507,2022-03-02
+SKU074,Computer Table,Furniture,12311,14840,2024-05-12
+SKU075,Plastic Chair,Furniture,23822,30893,2024-01-28
+SKU076,Wall Hanging,Home Decor,2454,3485,2024-04-08
+SKU077,Brass Diya,Home Decor,2065,3238,2021-02-03
+SKU078,Handloom Cushion Cover,Home Decor,383,528,2024-12-20
+SKU079,Jute Rug,Home Decor,1036,1356,2025-12-20
+SKU080,Terracotta Planter,Home Decor,1848,2746,2022-02-13
+SKU081,Wooden Wall Shelf,Home Decor,1186,1706,2021-03-08
+SKU082,Glass Flower Vase,Home Decor,2682,3839,2021-04-12
+SKU083,Metal Wall Art,Home Decor,2591,3474,2025-02-12
+SKU084,Cotton Door Curtain,Home Decor,204,267,2025-11-12
+SKU085,Pichwai Painting,Home Decor,2588,3322,2023-03-25
+SKU086,Scented Candle,Home Decor,328,486,2021-09-19
+SKU087,Beaded Table Runner,Home Decor,1076,1468,2022-02-22
+SKU088,Bamboo Wind Chime,Home Decor,2299,3481,2025-10-27
+SKU089,Marble Coaster Set,Home Decor,1247,1539,2021-06-12
+SKU090,Ethnic Floor Cushion,Home Decor,159,224,2024-07-31
+SKU091,Pressure Cooker,Cookware & Tableware,1198,1451,2025-04-22
+SKU092,Tawa,Cookware & Tableware,2703,4173,2024-08-28
+SKU093,Kadai,Cookware & Tableware,2643,3675,2021-05-23
+SKU094,Top,Cookware & Tableware,805,1034,2021-02-17
+SKU095,Fry Pan,Cookware & Tableware,859,1277,2021-02-12
+SKU096,Thali,Cookware & Tableware,2034,2547,2025-10-07
+SKU097,Katori,Cookware & Tableware,669,1045,2023-02-02
+SKU098,Tumbler,Cookware & Tableware,2800,4354,2022-02-21
+SKU099,Hot Case,Cookware & Tableware,1692,2332,2025-03-22
+SKU100,Serving Spoon,Cookware & Tableware,601,849,2025-11-19
